@@ -1,4 +1,4 @@
-//
+
 //  ViewController.swift
 //  MyTodoList
 //
@@ -52,6 +52,7 @@ class ViewController: UIViewController {
         
         tableView.reloadData()
         
+        
     }
     
     @IBAction func didTapAdd() {
@@ -98,7 +99,7 @@ class ViewController: UIViewController {
             
             return cell
         }
+        
     }
-    
-    
+
 
